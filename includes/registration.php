@@ -26,6 +26,22 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 
 ?>
 
+
+<script>
+function checkAvailability() {
+$("#loaderIcon").show();
+jQuery.ajax({
+url: "check_availability.php",
+data:'emailid='+$("#emailid").val(),
+type: "POST",
+success:function(data){
+$("#user-availability-status").html(data);
+$("#loaderIcon").hide();
+},
+error:function (){}
+});
+}
+</script>
 <script type="text/javascript">
 function valid()
 {
@@ -58,6 +74,7 @@ return true;
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control" name="emailid" id="emailid" onBlur="checkAvailability()" placeholder="Email Address" required="required">
+                   <span id="user-availability-status" style="font-size:12px;"></span> 
                 </div>
                 <div class="form-group">
                   <input type="password" class="form-control" name="password" placeholder="Password" required="required">

@@ -71,6 +71,17 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel= "stylesheet" type= "text/css" href= "includes/statics/css/style.css">
+      <!--Main css-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
 </head>
 <body>
 
@@ -421,7 +432,9 @@ foreach($results as $result)
 
 <!--Forgot-password-Form -->
 <?php include('includes/forgotpassword.php');?>
-
+<!--Chatbot-->
+<?php include('includes/chatbot.php');?>
+<!-- /Chatbot --> 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script> 
 <script src="assets/js/interface.js"></script> 
@@ -429,6 +442,11 @@ foreach($results as $result)
 <script src="assets/js/bootstrap-slider.min.js"></script> 
 <script src="assets/js/slick.min.js"></script> 
 <script src="assets/js/owl.carousel.min.js"></script>
+<!--JavaScript at end of body for optimized loading-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="includes/statics/js/materialize.min.js"></script>
+      <!--Main Script -->
+      <script type="text/javascript" src="includes/statics/js/script.js"></script>
 
 </body>
 </html>

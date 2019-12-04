@@ -1,0 +1,174 @@
+[
+    {
+        "mention_key": "id",
+        "mapping_key": "id"
+    },
+    {
+        "mention_key": "title",
+        "mapping_key": "vehiclestitle"
+    },
+    {
+        "mention_key": "brand",
+        "mapping_key": "vehiclesbrand"
+    },
+    {
+        "mention_key": "overview",
+        "mapping_key": "vehiclesoverview"
+    },
+    {
+        "mention_key": "price",
+        "mapping_key": "priceperday"
+    },
+    {
+        "mention_key": "fuel",
+        "mapping_key": "fueltype"
+    },
+    {
+        "mention_key": "model",
+        "mapping_key": "modelyear"
+    },
+    {
+        "mention_key": "seat",
+        "mapping_key": "seatingcapacity"
+    },
+    {
+        "mention_key": "seating",
+        "mapping_key": "seatingcapacity"
+    },
+    {
+        "mention_key": "air conditioner",
+        "mapping_key": "airconditioner"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "airconditioner"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "airconditioner"
+    },
+    {
+        "mention_key": "power door locks",
+        "mapping_key": "powerdoorlocks"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "powerdoorlocks"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "powerdoorlocks"
+    },
+    {
+        "mention_key": "anti lock braking system",
+        "mapping_key": "antilockbrakingsystem"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "antilockbrakingsystem"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "antilockbrakingsystem"
+    },
+    {
+        "mention_key": "brake assist",
+        "mapping_key": "brakeassist"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "brakeassist"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "brakeassist"
+    },
+    {
+        "mention_key": "driver airbag",
+        "mapping_key": "driverairbag"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "driverairbag"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "driverairbag"
+    },
+    {
+        "mention_key": "passenger air bag",
+        "mapping_key": "passengerairbag"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "passengerairbag"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "passengerairbag"
+    },
+    {
+        "mention_key": "power windows",
+        "mapping_key": "powerwindows"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "powerwindows"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "powerwindows"
+    },
+    {
+        "mention_key": "cd player",
+        "mapping_key": "cdplayer"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "cdplayer"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "cdplayer"
+    },
+    {
+        "mention_key": "central locking",
+        "mapping_key": "centrallocking"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "centrallocking"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "centrallocking"
+    },
+    {
+        "mention_key": "crash sensor",
+        "mapping_key": "crashsensor"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "crashsensor"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "crashsensor"
+    },
+    {
+        "mention_key": "leather seat",
+        "mapping_key": "leatherseats"
+    },
+    {
+        "mention_key": "feature",
+        "mapping_key": "leatherseats"
+    },
+    {
+        "mention_key": "function",
+        "mapping_key": "leatherseats"
+    },
+    {
+        "mention_key": "brand",
+        "mapping_key": "brand"
+    }
+]

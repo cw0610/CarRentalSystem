@@ -132,6 +132,8 @@ foreach($results as $result)
 											<td><?php echo htmlentities($result->PricePerDay);?></td>
 											<td><?php echo htmlentities($result->FuelType);?></td>
 												<td><?php echo htmlentities($result->ModelYear);?></td>
+
+		<td><button><a href="edit-vehicle.php?id=<?php echo $result->id;?>">edit</a></button>&nbsp;&nbsp;
 		<td><a href="manage-vehicles.php?del=<?php echo $result->id;?>" onclick="return confirm('Do you want to delete');"><i class="fa fa-close"></i></a></td>
 										</tr>
 										<?php $cnt=$cnt+1; }} ?>

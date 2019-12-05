@@ -153,6 +153,20 @@ foreach($results as $result)
                 </select>
               </div>
              
+             </div>    
+
+              <div class="form-group select">
+                <select class="form-control" name="seat">
+             <option>Select Seat Capacity</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+                </select>
+              </div>
               <div class="form-group">
                 <button type="submit" class="btn btn-block"><i class="fa fa-search" aria-hidden="true"></i> Search Car</button>
               </div>

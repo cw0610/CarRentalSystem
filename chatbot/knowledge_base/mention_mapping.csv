@@ -1,0 +1,45 @@
+mention_key,mapping_key
+first,0
+second,1
+third,2
+fourth,3
+fifth,4
+one,0
+two,1
+three,2
+four,3
+five,4
+1,0
+2,1
+3,2
+4,3
+5,4
+last,4
+final,4
+tomorrow,7
+today,6
+yesterday,5
+last monday,8
+last tuesday,9
+last wednesday,10
+last thursday,11
+last friday,12
+last saturday,13
+last sunday,14
+monday,15
+tuesday,16
+wednesday,17
+thursday,18
+friday,19
+saturday,20
+sunday,21
+next monday,22
+next tuesday,23
+next wednesday,24
+next thursday,25
+next friday,26
+next saturday,27
+next sunday,28
+next week,29
+this week,30
+last week,31

@@ -53,6 +53,17 @@ else{
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->  
+
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel= "stylesheet" type= "text/css" href= "includes/statics/css/style.css">
+      <!--Main css-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
 </head>
 <body>
 
@@ -168,6 +179,11 @@ foreach($results as $result)
 <!--/my-vehicles--> 
 <?php include('includes/footer.php');?>
 
+
+<!--Chatbot-->
+<?php include('includes/chatbot.php');?>
+<!-- /Chatbot --> 
+
 <!-- Scripts --> 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script> 
@@ -179,6 +195,12 @@ foreach($results as $result)
 <!--Slider-JS--> 
 <script src="assets/js/slick.min.js"></script> 
 <script src="assets/js/owl.carousel.min.js"></script>
+<!--JavaScript at end of body for optimized loading-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="includes/statics/js/materialize.min.js"></script>
+      <!--Main Script -->
+      <script type="text/javascript" src="includes/statics/js/script.js"></script>
+
 </body>
 </html>
 <?php } ?>

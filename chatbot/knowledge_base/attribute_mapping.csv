@@ -1,0 +1,44 @@
+mention_key,mapping_key
+id,id
+title,VehiclesTitle
+brand,VehiclesBrand
+overview,VehiclesOverview
+price,PricePerDay
+fuel,FuelType
+model,ModelYear
+seat,SeatingCapacity
+seating,SeatingCapacity
+air conditioner,AirConditioner
+feature,AirConditioner
+function,AirConditioner
+power door locks,PowerDoorLocks
+feature,PowerDoorLocks
+function,PowerDoorLocks
+anti lock braking system,AntiLockBrakingSystem
+feature,AntiLockBrakingSystem
+function,AntiLockBrakingSystem
+brake assist,BrakeAssist
+feature,BrakeAssist
+function,BrakeAssist
+driver airbag,DriverAirbag
+feature,DriverAirbag
+function,DriverAirbag
+passenger air bag,PassengerAirbag
+feature,PassengerAirbag
+function,PassengerAirbag
+power windows,PowerWindows
+feature,PowerWindows
+function,PowerWindows
+cd player,CDPlayer
+feature,CDPlayer
+function,CDPlayer
+central locking,CentralLocking
+feature,CentralLocking
+function,CentralLocking
+crash sensor,CrashSensor
+feature,CrashSensor
+function,CrashSensor
+leather seat,LeatherSeats
+feature,LeatherSeats
+function,LeatherSeats
+brand,brand

@@ -1,0 +1,6 @@
+mention_key,mapping_key
+vehicle brand,tblbrands
+car,tblvehicles
+vehicle type,tblvehicles
+vehicle,tblvehicles
+mobile,tblvehicles

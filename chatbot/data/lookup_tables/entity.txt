@@ -1,0 +1,23 @@
+car
+motorcar
+fomite
+automobile
+Mobile_River
+vehicle brand
+railcar
+gondola
+wandering
+elevator_car
+railroad_car
+machine
+nomadic
+mobile
+Mobile
+railway_car
+vehicle
+vehicle type
+fluid
+peregrine
+cable_car
+auto
+roving

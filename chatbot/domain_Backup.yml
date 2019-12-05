@@ -1,0 +1,143 @@
+--- 
+entities: 
+  - data
+  - attribute
+  - data_attribute
+  - entity_type
+  - mention
+  - mention_date
+  - total_count
+  - list_count
+  - list_decision
+  - list_entity_type
+  - list_attribute
+  - list_data
+  - list_data_attribute
+  - list_output
+  - confirm_entity_list
+  - confirm_entity_type
+  - confirm_attribute
+  - confirm_data
+  - confirm_data_attribute
+  - confirm_mention
+  - confirm_mention_date
+  - stage
+intents: 
+  - greet
+  - help
+  - out_of_scope
+  - query_FAQ
+  - query_list
+slots: 
+  attribute: 
+    type: unfeaturized
+  confirm_attribute: 
+    type: unfeaturized
+  confirm_data: 
+    type: unfeaturized
+  confirm_data_attribute: 
+    type: unfeaturized
+  confirm_entity_list: 
+    type: list
+  confirm_entity_type: 
+    type: unfeaturized
+  confirm_mention: 
+    type: unfeaturized
+  confirm_mention_date: 
+    type: unfeaturized
+  data: 
+    type: unfeaturized
+  data_attribute: 
+    type: unfeaturized
+  entity_type: 
+    type: unfeaturized
+  list_attribute: 
+    type: unfeaturized
+  list_count: 
+    type: unfeaturized
+  list_data: 
+    type: unfeaturized
+  list_data_attribute: 
+    type: unfeaturized
+  list_decision: 
+    type: unfeaturized
+  list_entity_type: 
+    type: unfeaturized
+  list_output: 
+    type: list
+  mention: 
+    type: unfeaturized
+  mention_date: 
+    type: unfeaturized
+  stage: 
+    type: unfeaturized
+  total_count: 
+    type: unfeaturized
+templates: 
+  utter_ask_brand: 
+    - 
+        buttons: 
+        - 
+          payload: /ActionFAQ
+          title: Maruti
+        - 
+          payload: /ActionFAQ
+          title: BMW
+        - 
+          payload: /ActionFAQ
+          title: Audi
+        - 
+          payload: /ActionFAQ
+          title: Nissan
+        - 
+          payload: /ActionFAQ
+          title: Toyota
+        - 
+          payload: /ActionFAQ
+          title: Marutiu
+        - 
+          payload: /ActionFAQ
+          title: Taxi
+        text: " Oh! You want to search car for rent, right? Let me guide you! Please let me know the vehicle brand you want!️"
+  utter_greet: 
+    - 
+        buttons: 
+        - 
+          payload: /ActionFAQ
+          title: "Check Vehicle Brand"
+        - 
+          payload: /ActionFAQ
+          title: "Check Vehicle Type"
+        - 
+          payload: /ActionFAQ
+          title: FAQ
+        text: "Hi , Welcome to CRS CAR Rental System!☺️"
+  utter_help: 
+    - 
+        buttons: 
+        - 
+          payload: /ActionFAQ
+          title: "Check Vehicle Brand"
+        - 
+          payload: /ActionFAQ
+          title: "Check Vehicle Type"
+        text: "FIND THE RIGHT CAR FOR YOU! We have more than a thousand cars for you to choose."
+  utter_out_of_scope: 
+    - 
+      text: "Sorry, I cannot help you with that."
+    - 
+      text: "I'm not able to help you with that."
+  utter_rephrase: 
+    - 
+      text: "Can you please rephrase?"
+    - 
+      text: "Sorry, I didn't get that. Can you rephrase?"
+
+actions: 
+  - action_query_FAQ
+  - action_query_list
+  - utter_greet
+  - utter_help
+  - utter_ask_brand
+  - utter_out_of_scope
+  - utter_rephrase

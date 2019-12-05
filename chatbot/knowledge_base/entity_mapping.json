@@ -1,0 +1,22 @@
+[
+    {
+        "mention_key": "vehicle brand",
+        "mapping_key": "tblbrands"
+    },
+    {
+        "mention_key": "car",
+        "mapping_key": "tblvehicles"
+    },
+    {
+        "mention_key": "vehicle type",
+        "mapping_key": "tblvehicles"
+    },
+    {
+        "mention_key": "vehicle",
+        "mapping_key": "tblvehicles"
+    },
+    {
+        "mention_key": "mobile",
+        "mapping_key": "tblvehicles"
+    }
+]
